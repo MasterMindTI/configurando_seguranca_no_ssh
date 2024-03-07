@@ -85,7 +85,7 @@ ssh-copy-id -i /home/lucas/.ssh/slackware-vm_rsa.pub lucas@192.168.196.245
 ```
 Você será solicitado a inserir a senha do usuário no servidor.
 
-- 2.5.  Teste a conexão com o servidor:
+- 2.5. Teste a conexão com o servidor:
 
 ```
 ssh -i .ssh/slackware-vm_rsa 'lucas@192.168.196.245' -p 61122
@@ -106,15 +106,15 @@ Certifique-se de que a conexão seja bem-sucedida antes de prosseguir
 systemctl restart sshd.service
 ```
 
-- 3. - Configurando Acesso Simplificado
+- 3. Configurando Acesso Simplificado
 
-- 3.1. - Edite o arquivo ~/.ssh/config:
+- 3.1. Edite o arquivo ~/.ssh/config:
 
 ```
 nano ~/.ssh/config
 ```
 
-- 3.2. - E adicione o seguinte conteúdo:
+- 3.2. E adicione o seguinte conteúdo:
 
 ```
 Host slackware-vm
