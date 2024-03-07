@@ -106,7 +106,8 @@ Certifique-se de que a conexão seja bem-sucedida antes de prosseguir
 systemctl restart sshd.service
 ```
 
-- 3. Configurando Acesso Simplificado
+- 3. Configurando Acesso Simplificado:
+
 
 - 3.1. Edite o arquivo ~/.ssh/config:
 
