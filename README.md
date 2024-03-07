@@ -29,26 +29,36 @@ Port 61122
 backup
 PermitRootLogin prohibit-password
 PermitRootLogin yes
+
 # Segundo caso do PermitRootLogin
 #PermitRootLogin prohibit-password
 PermitRootLogin no
+
 # Especificar o número de tentativas de conexões permitidas, o padrão é 6
 MaxAuthTries 4
+
 # Máximo de sessões conectadas, o padrão é 10
 MaxSessions 6
+
 # Autoriza autenticação via chaves
 PubkeyAuthentication yes
+
 # Procurar por chaves autenticadas, que vamos enviar ao servidor "Conexão
 feita somente pelas chaves"
 AuthorizedKeysFile .ssh/authorized_keys .ssh/authorized_keys2
+
 # Bloqueia o acesso ssh ao ambiente gráfico
 X11Forwarding no
+
 # Tempo de Inatividade para desconexão automática (600 = 10m)
 ClientAliveInterval 600
+
 # Quantas solicitações vai enviar ao cliente, o padrão é 3
 ClientAliveCountMax 3
+
 # Permitir autenticação via senha (sim ou não)
 PasswordAuthentication no
+
 # Permitir senhas vazias
 PermitEmptyPasswords no
 ```
