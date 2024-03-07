@@ -137,7 +137,8 @@ ssh slackware-vm
 Agora você configurou com sucesso a segurança do SSH no seu servidor, garantindo uma
 comunicação segura entre o cliente e o servidor.
 
-<a href="https://www.youtube.com/watch?v=VX3phETfmZ8" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
+Fonte: <a href="https://www.youtube.com/watch?v=VX3phETfmZ8" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
+Este é o video do mestre Slackjeff, explicando cada uma das coisinhas que passei acima.
 
 ####################################################################
 ## Informações Adicionais:
